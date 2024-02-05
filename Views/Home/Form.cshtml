@@ -1,0 +1,51 @@
+@model programmeringmed.Net2.Models.Person
+@{
+    ViewData["Title"] = "Form";
+}
+
+<h2>ViewBag</h2>
+
+<form asp-action="Form" method="post">
+    <div class="form-group">
+        <label asp-for="fname">Förnamn:</label>
+         <span asp-validation-for="fname"></span>
+        <input asp-for="fname" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="lname">Efternamn:</label>
+            <span asp-validation-for="lname"></span>
+        <input asp-for="lname" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="gender">Kön:</label>
+        <select asp-for="gender" class="form-control">
+            <option value="Man">Man</option>
+            <option value="Kvinna">Kvinna</option>
+            <option value="Annat">Annat</option>
+        </select>
+        <span asp-validation-for="gender"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="age">Ålder:</label>
+        <span asp-validation-for="age"></span>
+        <input asp-for="age" class="form-control" value="0" />
+    </div>
+    <span asp-validation-for="work"></span>
+    <div class="form-group">
+        <input type="radio" id="work1" name="work" value="fast Arbete">
+        <label class="radioLabel" for="work1">Fast Arbete</label>
+        <input type="radio" id="work2" name="work" value="arbetslös">
+        <label class="radioLabel" for="work2">Arbetslös</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Skicka</button>
+</form>
+
+<h3 class="center">@ViewBag.s</h3>
+<p class="center">@ViewBag.test</p>
+
+<div id="partialZone">
+    @Html.Partial("_NamePartial")
+</div>

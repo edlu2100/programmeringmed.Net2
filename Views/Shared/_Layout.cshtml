@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Titel"]</title>
+    <link href="~/css/style.css" type="text/css" rel="stylesheet" media="all">
+</head>
+<body>
+
+<header>
+    <a asp-action="Index" asp-controller="Home"> <h1 class="logo">Moment 2</h1></a>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+</header>
+
+<div class="mainflex">
+    <nav id="mobile-menu" class="closed">
+                <ul class="navbar-nav">
+                    <li>
+                        <a asp-action="Index" asp-controller="Home">Startsida</a>
+                    </li>
+                    <li >
+                        <a asp-action="Form" asp-controller="Home">ViewBag</a>
+                    </li>
+                    <link>
+                        <a asp-action="ViewData2" asp-controller="Home">ViewData</a>
+                    </li>
+                </ul>
+        <button class="close-button" onclick="closeMenu()">X</button>
+    </nav>
+    <main>
+        @RenderBody()
+    </main>
+
+</div>
+    
+    <footer>
+        <p>Moment 2 - Edwin Lundbäck, <a id="mail" href="mailto:edlu2100@student.miun.se">edlu2100@student.miun.se</p>
+    </footer>
+<script src="~/js/main.js"></script>
+
+</body>
+</html>

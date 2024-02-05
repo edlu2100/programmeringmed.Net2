@@ -1,0 +1,17 @@
+﻿@model IEnumerable<programmeringmed.Net2.Models.Courses>
+@{
+    ViewData["Title"] = "Startsida";
+}
+
+<h2>Startsida</h2>
+
+
+<p>Detta skickas med parameterpassning:</p>
+@foreach(var course in Model){
+    <p>@course.Coursename, @course.Coursecode</p>
+}
+
+
+<div id="partialZone">
+    @Html.Partial("_NamePartial")
+</div>

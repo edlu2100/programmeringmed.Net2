@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/programmeringmed.Net2.props" />
+</Project>

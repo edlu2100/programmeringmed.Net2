@@ -1,0 +1,31 @@
+@model programmeringmed.Net2.Models.Calc
+@{
+    ViewData["Title"] = "ViewData";
+}
+
+<h2>ViewData</h2>
+
+<p class="center">Enkel Beräkning Addition</p>
+<form asp-action="ViewData2" method="post">
+    <div>
+        <label asp-for="Num1">Tal 1:</label>
+        <input asp-for="Num1" required>
+    </div>
+
+    <div>
+        <label asp-for="Num2">Tal 2:</label>
+        <input asp-for="Num2" required>
+    </div>
+
+    <button class="btn" type="submit">Beräkna</button>
+</form>
+
+@if (ViewData["Result"] != null)
+{
+    <h3 class="center">Resultat: @((int)ViewData["Result"]!)</h3>
+}
+
+
+<div id="partialZone">
+    @Html.Partial("_NamePartial")
+</div>

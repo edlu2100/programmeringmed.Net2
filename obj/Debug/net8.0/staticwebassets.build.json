@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "nyC9bxPRwcNrmDXfOz0r8RAt4YK3PEiEboCnjpG/p7U=",
+  "Source": "programmeringmed.Net2",
+  "BasePath": "_content/programmeringmed.Net2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "programmeringmed.Net2/wwwroot",
+      "Source": "programmeringmed.Net2",
+      "ContentRoot": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net2/wwwroot/",
+      "BasePath": "_content/programmeringmed.Net2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net2/wwwroot/css/style.css",
+      "SourceId": "programmeringmed.Net2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net2/wwwroot/",
+      "BasePath": "_content/programmeringmed.Net2",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net2/wwwroot/js/main.js",
+      "SourceId": "programmeringmed.Net2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net2/wwwroot/",
+      "BasePath": "_content/programmeringmed.Net2",
+      "RelativePath": "js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/main.js"
+    }
+  ]
+}

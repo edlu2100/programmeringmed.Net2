@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net2/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/edwin/Desktop/Edwin/Universitetet/Kurser/Webbutveckling med .Net/programmeringmed.Net2/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.programmeringmed.Net2.props",
+      "PackagePath": "build\\programmeringmed.Net2.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.programmeringmed.Net2.props",
+      "PackagePath": "buildMultiTargeting\\programmeringmed.Net2.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.programmeringmed.Net2.props",
+      "PackagePath": "buildTransitive\\programmeringmed.Net2.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.programmeringmed.Net2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

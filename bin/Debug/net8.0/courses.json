@@ -1,0 +1,17 @@
+[{
+        "Id": 1,
+        "Coursename": "Webbutveckling 1",
+        "Coursecode": "DT057G"
+    },
+    {
+        "Id": 2,
+        "Coursename": "Webbutveckling 2",
+        "Coursecode": "DT093G"
+    },
+    {
+        "Id": 3,
+        "Coursename": "Webbutveckling 3",
+        "Coursecode": "DT173G"
+    }
+
+]
